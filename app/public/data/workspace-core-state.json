@@ -1,0 +1,102 @@
+{
+  "profile": {
+    "id": "person-mateo",
+    "displayName": "Mateo Romano",
+    "headline": "Builder focused on AI-native workflows and context systems.",
+    "currentFocus": [
+      "Workspace operating system",
+      "Second-brain integration",
+      "Multi-repo context tracking"
+    ],
+    "skills": [
+      "TypeScript",
+      "React",
+      "Architecture design",
+      "AI-assisted development"
+    ],
+    "institutions": ["Personal Workspace Lab"]
+  },
+  "repositories": [
+    {
+      "id": "repo-workspace",
+      "name": "personal_workspace",
+      "visibility": "private",
+      "activeBranch": {
+        "name": "main",
+        "isDefault": true,
+        "aheadBy": 0,
+        "behindBy": 0
+      },
+      "lastCommit": {
+        "sha": "f7aeb8d",
+        "message": "Add workspace UI colors for title and status bars (VS Code family)",
+        "authoredAt": "2026-04-13T14:40:12.000Z",
+        "changedFiles": 1,
+        "category": "chore"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-core-workspace",
+      "name": "Workspace Core System",
+      "status": "active",
+      "sensitivity": "global-safe",
+      "repositoryId": "repo-workspace",
+      "nextSteps": [
+        {
+          "id": "step-project-core-workspace-review-latest",
+          "text": "Review latest commit summary and adjust next actions.",
+          "priority": "high",
+          "isBlocked": false
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "resource-antigravity-skills",
+      "title": "antigravity-awesome-skills",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "category": "repository",
+      "status": "active",
+      "linkedProjectIds": ["project-core-workspace"]
+    },
+    {
+      "id": "resource-obsidian",
+      "title": "Obsidian",
+      "url": "https://obsidian.md/",
+      "category": "tool",
+      "status": "active",
+      "linkedProjectIds": ["project-core-workspace"]
+    },
+    {
+      "id": "resource-claude-mem",
+      "title": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "category": "repository",
+      "status": "linked",
+      "linkedProjectIds": ["project-core-workspace"]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-repo-workspace-registered",
+      "type": "repo-registered",
+      "occurredAt": "2026-04-13T18:30:52.864Z",
+      "summary": "Repository personal_workspace ingested from tracked configuration.",
+      "severity": "info",
+      "repositoryId": "repo-workspace",
+      "projectId": "project-core-workspace"
+    },
+    {
+      "id": "event-repo-workspace-commit",
+      "type": "commit-summarized",
+      "occurredAt": "2026-04-13T14:40:12.000Z",
+      "summary": "Latest commit summarized: Add workspace UI colors for title and status bars (VS Code family)",
+      "severity": "info",
+      "repositoryId": "repo-workspace",
+      "projectId": "project-core-workspace"
+    }
+  ]
+}
