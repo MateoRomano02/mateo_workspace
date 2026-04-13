@@ -1,0 +1,19 @@
+{
+  "id": "person-mateo",
+  "displayName": "Mateo Romano",
+  "headline": "Builder focused on AI-native workflows and context systems.",
+  "currentFocus": [
+    "Workspace operating system",
+    "Second-brain integration",
+    "Multi-repo context tracking"
+  ],
+  "skills": [
+    "TypeScript",
+    "React",
+    "Architecture design",
+    "AI-assisted development"
+  ],
+  "institutions": [
+    "Personal Workspace Lab"
+  ]
+}
