@@ -1,0 +1,13 @@
+{
+  "repositories": [
+    {
+      "id": "repo-workspace",
+      "projectId": "project-core-workspace",
+      "projectName": "Workspace Core System",
+      "path": ".",
+      "visibility": "private",
+      "sensitivity": "global-safe",
+      "status": "active"
+    }
+  ]
+}
