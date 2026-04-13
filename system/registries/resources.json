@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "id": "resource-antigravity-skills",
+      "title": "antigravity-awesome-skills",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "category": "repository",
+      "status": "active",
+      "linkedProjectIds": [
+        "project-core-workspace"
+      ]
+    },
+    {
+      "id": "resource-obsidian",
+      "title": "Obsidian",
+      "url": "https://obsidian.md/",
+      "category": "tool",
+      "status": "active",
+      "linkedProjectIds": [
+        "project-core-workspace"
+      ]
+    },
+    {
+      "id": "resource-claude-mem",
+      "title": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "category": "repository",
+      "status": "linked",
+      "linkedProjectIds": [
+        "project-core-workspace"
+      ]
+    }
+  ]
+}
