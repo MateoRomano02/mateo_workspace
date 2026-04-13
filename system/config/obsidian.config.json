@@ -1,0 +1,12 @@
+{
+  "vaultPath": "brain",
+  "mode": "repo-local",
+  "noteTemplates": [
+    "resource",
+    "project",
+    "decision",
+    "session-log"
+  ],
+  "integrationStatus": "planned-v1",
+  "notes": "Use this file as integration contract for future Obsidian sync layer."
+}
