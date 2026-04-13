@@ -1,0 +1,14 @@
+{
+  "name": "personal-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "ingest:state": "node scripts/ingest-workspace-state.mjs",
+    "dev:state": "npm run ingest:state && npm run dev",
+    "dev": "npm --prefix app run dev",
+    "build": "npm --prefix app run build",
+    "lint": "npm --prefix app run lint",
+    "typecheck": "npm --prefix app run typecheck",
+    "format": "npm --prefix app run format"
+  }
+}
